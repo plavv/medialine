@@ -83,13 +83,16 @@ $this->title = Yii::$app->name;
                 </ul>
             </div>
             <div class="col-lg-4">
-                <h4>реализация</h4>
+                <h4>Реализация</h4>
 
                 <p>Выдача списка всех новостей, которые относятся к указанной рубрике, включая дочерние:</p>
 
                 <p><a href="/news-by-rubric/1">Рубрика: Общество</a></p>
                 <p><a href="/news-by-rubric/4">Рубрика: День города</a></p>
                 <p><a href="/news-by-rubric/44">Не существующая рубрика</a></p>
+                <hr>
+                <p>Публичный репозиторий:</p>
+                <p><a href="https://github.com/plavv/medialine.git">https://github.com/plavv/medialine.git</a></p>
 
             </div>
 

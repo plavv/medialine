@@ -77,7 +77,6 @@ class NewsRubrics extends \yii\db\ActiveRecord {
         $result = ArrayHelper::getColumn($result, 'news');
 
         /* Простите, здесь может не очень елегантный foreach :) */
-        $return[0];
         $i = 0;
         foreach ($result as $value) {
             $return[$i]['news_id'] = $value->id;
