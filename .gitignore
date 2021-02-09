@@ -47,3 +47,5 @@ tests/_support/_generated
 /mail
 /docker-compose.yml
 /assets
+/.bowerrc
+/.gitignore
